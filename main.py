@@ -6,5 +6,8 @@ app = Flask(__name__)
 def hello_world():
     return render_template("index.html")
 
+@app.route("/todo")
+def hello_world():
+    return render_template("todo.html")
 
 app.run(debug=True)
