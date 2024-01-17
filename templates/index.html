@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='output.css')}}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600;700&family=Pacifico&display=swap" rel="stylesheet"> 
+    <title>Blog</title>
+</head>
+
+<body class="bg-neutral-800">
+    
+    <nav class="fixed text-lg top-0 left-0 right-0 bg-neutral-700 p-4 font-Plex m-8 rounded-xl shadow-zinc-900 shadow-lg">
+        <div class="container mx-auto flex items-center justify-center">
+            <div class="flex space-x-4">
+                <a href="#" class="text-[#84b584] hover:text-[#536b4e] font-semibold">/home</a>
+                <a href="#" class="text-[#84b584] hover:text-[#536b4e] font-semibold">/projects</a>
+                <a href="#" class="text-[#84b584] hover:text-[#536b4e] font-semibold">/blog</a>
+                <a href="#" class="text-[#84b584] hover:text-[#536b4e] font-semibold">/todo</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-60 mx-auto w-[50%] flex flex-row space-x-24">
+        <img src="/static/pic.gif" class="rounded-full my-auto w-52 h-52 object-cover transition duration-300 hover:translate-x-4 hover:-translate-y-4 shadow-zinc-900 shadow-xl"/>
+        
+        <div class="flex flex-col w-[55%] space-y-4">
+            <h2 class="text-2xl font-Plex font-bold text-[#84b584]">Hi! I'm Cheko</h2>
+            
+            <p class="text-lg font-Plex font-thin text-[#84b584]">I am a full stack web dev, pythoneer and student. I slurp coffe, listen to lofi, love physics, practice taekwando, read books.</p>
+            
+            <button class="w-[35%] transition duration-300 hover:translate-x-2 hover:-translate-y-2 hover:shadow-zinc-900 hover:shadow-lg bg-[#a7e4a7] text-[#3f503c] font-bold py-2 px-4 rounded-lg">
+                <a href="mailto:jijdev@proton.me">Contact Me</a>
+              </button>
+        
+        </div>
+
+    </div>
+
+</body>
+
+</html>
