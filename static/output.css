@@ -624,10 +624,6 @@ video {
   display: flex;
 }
 
-.table {
-  display: table;
-}
-
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
@@ -640,10 +636,6 @@ video {
   width: 13rem;
 }
 
-.w-\[40\%\] {
-  width: 40%;
-}
-
 .w-\[70\%\] {
   width: 70%;
 }
@@ -652,16 +644,20 @@ video {
   width: 75%;
 }
 
-.w-\[80\%\] {
-  width: 80%;
-}
-
 .w-\[90\%\] {
   width: 90%;
 }
 
-.border-collapse {
-  border-collapse: collapse;
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .flex-col {
@@ -710,17 +706,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-primary {
-  --tw-border-opacity: 1;
-  border-color: rgb(186 255 186 / var(--tw-border-opacity));
 }
 
 .border-b-primary {
@@ -741,11 +728,6 @@ video {
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(186 255 186 / var(--tw-bg-opacity));
-}
-
-.bg-neutral {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 10 10 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -843,11 +825,6 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.drop-shadow-2xl {
-  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -911,16 +888,12 @@ video {
     margin-top: 16rem;
   }
 
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .md\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:flex-row {
@@ -941,11 +914,5 @@ video {
 
   .md\:text-left {
     text-align: left;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-\[40\%\] {
-    width: 40%;
   }
 }
