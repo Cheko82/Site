@@ -1,6 +1,6 @@
-{
-    "b1": {
-        "title": "asas",
-        "content": "cont"
+[
+    {
+        "title": "Rust for malware",
+        "caption": "I explain why rust is highly recommended for hacking."
     }
-}
+]
