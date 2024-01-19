@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="{{url_for('static',filename='output.css')}}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&family=IBM+Plex+Mono:wght@300;400;600;700&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    
+    <title>Cheko - {% block title %}{% endblock title %}</title>
+</head>
+
+<body class="bg-background">
+    
+    <nav class="fixed text-2xl top-0 left-0 right-0 bg-backgroundAlt p-4 font-Grotesk m-8 rounded-xl shadow-zinc-900 shadow-lg">
+        <div class="container mx-auto flex items-center justify-center">
+            <div class="flex space-x-8">
+                <a href="/" class="text-foreground hover:text-primary font-semibold">/home</a>
+                <!-- <a href="#" class="text-foreground hover:text-primary font-semibold">/projects</a> -->
+                <a href="/blogs" class="text-foreground hover:text-primary font-semibold">/blog</a>
+                <a href="/todo" class="text-foreground hover:text-primary font-semibold">/todo</a>
+            </div>
+        </div>
+    </nav>
+
+{% block body %}
+
+{% endblock body %}
+</body>
+</html>
