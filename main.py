@@ -33,5 +33,5 @@ def blogpost(title):
     return render_template(f'blogs/{title}.html', blog=blog)
 
 
-
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
