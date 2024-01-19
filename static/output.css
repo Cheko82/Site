@@ -737,12 +737,12 @@ video {
 
 .bg-background {
   --tw-bg-opacity: 1;
-  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
 
 .bg-backgroundAlt {
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(32 32 36 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
