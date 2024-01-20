@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     colors: {
       neutral:        '#0a0a0a',
-      foreground:     '#ECE3CE',
+      foreground:     '#F7FFE5',
       background:     '#27272a',
       backgroundAlt:  '#202024',
-      primary:        '#9DBC98',
-      secondary:      '#424769',
-      disabled:       '#3f503c',
+      primary:        '#99BC85',
+      secondary:      '#EBD9B4',
+      disabled:       '#3A4D39',
     },
     extend: {
       fontFamily: {
