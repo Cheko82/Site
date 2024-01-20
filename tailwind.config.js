@@ -13,7 +13,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        Pacifico: ["Pacifico", "sans-serif"],
+        Barlow: ["Barlow", "sans-serif"],
+        Grotesk: ["Space Grotesk", "sans-serif"],
         Plex: ["IBM Plex Mono", "monospace"]
       },
     },
