@@ -30,7 +30,7 @@ def blogpost(title):
         blogs = json.load(file)
 
     # blog = blogs[title]
-    return render_template(f'blogs/{title}.html', blog=blog)
+    return render_template(f'blogs/{title.replace(" ", "%20")}.html', blog=blog)
 
 
 if __name__ == "__main__":
