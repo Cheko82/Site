@@ -6,5 +6,9 @@
     {
         "title": "Resource List",
         "caption": "A collection of resources to learn programming, particiapte in hackathons etc."
+    },
+    {
+        "title": "My Anime List",
+        "caption": "A list of the animes I have watched and the animes I wanna watch."
     }
 ]
