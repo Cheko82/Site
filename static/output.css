@@ -677,6 +677,22 @@ video {
   width: 90%;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -725,6 +741,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(10% * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(10% * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
